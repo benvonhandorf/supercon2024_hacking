@@ -33,7 +33,7 @@ def map_pixel(input, target_size):
 
 if __name__ == '__main__':
 
-    characters = list(string.ascii_uppercase)
+    characters = list(string.ascii_uppercase + string.digits)
 
     for character in characters:
         image_size = (300, 500)
