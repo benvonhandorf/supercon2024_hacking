@@ -51,14 +51,14 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="0.49786513"
-     inkscape:cx="840.5891"
-     inkscape:cy="700.99306"
+     inkscape:cx="792.38327"
+     inkscape:cy="721.07882"
      inkscape:window-width="1159"
      inkscape:window-height="935"
      inkscape:window-x="26"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer2" />
+     inkscape:current-layer="g1" />
   <g
      inkscape:groupmode="layer"
      inkscape:label="Image"
@@ -88,9 +88,10 @@
      id="layer2"
      inkscape:label="Pixel Locations">
     <path
-       style="fill:none;stroke:#ff0000"
+       style="fill:none;stroke:#ff0000;stroke-width:4.15748031;stroke-dasharray:none"
        d="M 612.61571,662.83011 532.27267,548.34128 562.40131,411.7581 622.65859,311.3293 709.02736,235.0034 831.55051,192.82331 960.09938,186.79758"
-       id="path5" />
+       id="path5"
+       inkscape:label="strand 1" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -100,7 +101,7 @@
     <text
        xml:space="preserve"
        id="text3"
-       style="text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect4);fill:none;stroke:#ff0000"
+       style="text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect4);display:inline;fill:none;stroke:#ff0000"
        transform="matrix(6.9626599,0,0,9.5652618,-3208.0517,-5210.6686)"><tspan
          x="545.44922"
          y="619.33789"

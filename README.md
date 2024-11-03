@@ -9,3 +9,5 @@ I wanted to use the Petal SAO as an alphanumeric display.
   - Copy paste the output of this into `characters.py`
 - `characters.py` - Contains the map of characters for a font and a helper `set_character( i2cbus, character )` method
   - This has 2 different character maps in it that are rotated 0 and 60 degrees for convenience.  Uncomment the one you want to use.
+
+For debugging, images are stored in `letters/`, showing the letters and how LEDs overlap, and then `pixels/`, showing just the illuminated LEDs for each character.
