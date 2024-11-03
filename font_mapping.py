@@ -33,7 +33,7 @@ def map_pixel(input, target_size):
 
 if __name__ == '__main__':
     image_size = (300, 500)
-    rotation_degrees = 60
+    rotation_degrees = 0 # ~60 degrees for first slot clockwise from the lanyard hole
         
     characters = list(string.ascii_uppercase + string.digits)
 
