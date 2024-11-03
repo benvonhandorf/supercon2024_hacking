@@ -32,18 +32,19 @@ def map_pixel(input, target_size):
     return (input[0] - reference_rect[0]) * (target_size[0] / reference_rect[2]), (input[1] - reference_rect[1]) * (target_size[1] / reference_rect[3])
 
 if __name__ == '__main__':
-
+    image_size = (300, 500)
+    rotation_degrees = 60
+        
     characters = list(string.ascii_uppercase + string.digits)
 
     for character in characters:
-        image_size = (300, 500)
         # # Create a new image
         letter_image = Image.new('RGB', image_size, (255, 255, 255))
 
         pixel_image = Image.new('RGB', image_size, (255, 255, 255))
 
         # # Load a font
-        font = ImageFont.truetype("LiberationSansNarrow-Bold.ttf", 500)
+        font = ImageFont.truetype("LiberationSansNarrow-Bold.ttf", 400)
 
         label_font = ImageFont.truetype("LiberationSansNarrow-Bold.ttf", 10)
 
@@ -55,6 +56,9 @@ if __name__ == '__main__':
         draw_letter_image.text((150, 250), character, font=font, fill=(0, 0, 0), anchor='mm')
 
         letter_image.filter(ImageFilter.GaussianBlur(radius=50))
+        letter_image = letter_image.rotate(rotation_degrees,
+                                           center = (150,250),
+                                           fillcolor=(255, 255, 255))
 
         pixel_count = 0
 
